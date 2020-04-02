@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400|Noto+Sans|Nunito:300,400&display=swap');
+.body_head {
+    height: 550px;
+    background-color: #cef9ebd6;
+    background-image: url(../back.svg);
+    
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    
+    
+}
+
+.body_head .header_img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#header_img{
+    position: relative;
+
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: 40px;
+    display: inherit;
+    bottom: 280;
+}
+.body_head .body_h1 {
+    padding: 200 0 0 10;
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.body_head .body_h4 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+.body_head:after {
+    content: "";
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.7));
+    opacity: .4;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 500;
+}
+
+
+
+
+
+
+
+
+/*********************why to phone mozo *******************/
+.body_main {
+    padding: 60 10 10 10;
+    background-color: white;
+}
+.body_main .why_to {
+    text-align: center;
+    font-size: 45px;
+    padding: 20 0 0 0;
+    font-family: 'Nunito', sans-serif;
+}
+.body_main .why_to .even{
+    padding: 20 0 20 0;
+}
+.body_main .why_to .even .even_content {
+    font-size: 20px;
+    line-height: 30px;
+    color: #808080;
+}
+.body_main .why_to .even .even_content_head{
+    font-size: 30px;
+    
+} 
+#even_img{
+    height: 400px;
+    width: 400px;
+}
+.intreasted{
+    padding: 60 10 10 10;
+    background-color: white;
+}
+.intreasted .intreasted_head {
+    text-align: center;
+    font-size: 45px;
+    padding: 20 0 0 0;
+    font-family: 'Nunito', sans-serif;
+}
+#join_btn{
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 16px;
+    border: 3px solid;
+    color: #6c63ff;
+    font-size: 30px;
+    border-radius: 7px;
+    padding: 15px 30px;
+    background-color: white;
+    font-size: 25px;
+}
+#join_btn:hover {
+    color: #2218e0;
+}
+@media screen and (max-width: 1000px){
+    
+    .body_head {
+        background-color: #cef9ebd6;
+       
+    }
+    .body_head .body_h1 {
+        padding: 220 0 0 10;
+        font-size: 45px;
+    }
+    .body_head .body_h4 {
+        font-size: 20px;
+    }
+    #header_img{
+        height: 400px;
+        width: 400px;
+    }
+
+    /**/
+    /*********************why to phone mozo *******************/
+    .body_main .why_to {
+        font-size: 35px;
+    }
+    .body_main .why_to .even .even_content {
+        font-size: 18px;
+    }
+    .body_main .why_to .even .even_content_head {
+        font-size: 25px;
+    }
+    .intreasted .intreasted_head {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 768px){
+    .body_head {
+        background-image: url(../photos/pattern.svg);
+        background-blend-mode: overlay;
+    }
+    .body_head .header_img {
+        display: none;
+    }
+    .body_head .body_h1 {
+        text-align: center;
+    }
+    .body_head::after {
+        background-color: black;
+        height: 550px;
+        opacity: .07;
+        top: 0;
+    }
+
+    /*********************why to phone mozo *******************/
+    .body_main .why_to {
+        font-size: 30px;
+    }
+    .body_main .why_to .even .even_content {
+        
+        font-size: 15px;
+    }
+    .body_main .why_to .even .even_content_head {
+        padding: 30 0 0 0;
+        font-size: 20px;
+    }
+    #even_img{
+        height: 250px;
+        width: 350px;
+    }
+    .intreasted .intreasted_head {
+        font-size: 30px;
+    }
+    #join_btn {
+        margin: 30px 16px;
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+}
